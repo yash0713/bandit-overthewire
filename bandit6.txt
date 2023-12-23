@@ -1,0 +1,8 @@
+ls
+cd /
+ll -recursive | grep bandit6
+** the output lists a file named bandit7.password
+
+find -name bandit.password
+
+cat /var/lib/dpkg/info/bandit7.password

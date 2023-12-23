@@ -1,0 +1,7 @@
+ls
+cd inhere
+ll -H --recursive
+
+** check for the file size 1033.
+
+cat maybehere07/.file2

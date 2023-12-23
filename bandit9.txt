@@ -1,0 +1,4 @@
+ls
+cat data.txt | string | grep "=*"
+
+**string prints the sequence of printable characters from input.

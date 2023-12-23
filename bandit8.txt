@@ -1,0 +1,6 @@
+ls
+sort data.txt | uniq -u 
+
+** sort performs a sorting on data
+** uniq -u displays only the unique line occurring in the file
+## Using uniq -u will not work because it filters out only adjacent occurring lines.

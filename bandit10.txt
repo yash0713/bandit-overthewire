@@ -1,0 +1,2 @@
+ls
+base64 --decode data.txt

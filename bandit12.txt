@@ -1,0 +1,32 @@
+** this will take some effort
+
+## create a new directory in tmp and cp the data.txt there
+ls
+mkdir /tmp/folder
+cp data.txt /tmp/folder/
+
+## start with password extraction
+
+xxd -r data.txt > data1
+file data1
+mv data1 data1.gz
+gzip -d data1.gz
+file data1
+mv data1 data1.bz
+bzip2 -d data1.bz
+file data1
+mv data1 data1.gz
+gzip -d data1.gz
+file data1
+mv data1 data1.tar
+tar -xvf data1.tar
+file data6.bin
+mv data6.bin data6.bz
+bzip2 -d data6.bz
+file data6
+mv data6 data6.tar
+tar-xvf data6.tar
+file data8.bin
+mv data8.bin data8.gz
+file data8
+cat data8

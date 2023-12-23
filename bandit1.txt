@@ -1,0 +1,7 @@
+cat ./-
+-- alternatively
+cat < -
+
+
+
+-- Note : '-' is a special character used to refer to STDIN/STDOUT

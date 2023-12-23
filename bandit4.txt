@@ -1,0 +1,4 @@
+ls -a
+cat ./-file07
+
+**Note: manually cat the contents of each file on console to get the password.

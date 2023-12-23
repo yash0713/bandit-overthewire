@@ -1,0 +1,4 @@
+ls
+cat data.txt | tr 'A-Za-z' 'N-ZA-Mn-za-m'
+
+**tr command substitutes the the character supplied in first argument with the corresponding character provided in the second argument.
