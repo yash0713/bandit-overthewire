@@ -1,0 +1,4 @@
+ls
+ssh bandit14@localhost -p 2220 -i sshkey.private
+
+**login to bandit14 using this method and find the password @ /etc/bandit_pass/bandit14
